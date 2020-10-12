@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router renders consistently 1`] = `
+<DocumentFragment>
+  <main
+    class=""
+    id="home"
+  />
+</DocumentFragment>
+`;

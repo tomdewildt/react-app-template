@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://react-app-template.tomdewildt.nl/sitemap.xml
+Host: https://react-app-template.tomdewildt.nl

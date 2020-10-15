@@ -5,7 +5,7 @@ import { renderWithProvider } from "../utils/testUtils";
 
 import App from "./App";
 
-describe( "Router", () => {
+describe( "App", () => {
     it( "renders consistently", () => {
         const { asFragment } = renderWithProvider( <App /> );
         const fragment = asFragment();

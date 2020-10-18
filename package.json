@@ -33,7 +33,7 @@
         "jest-axe": "4.0.0",
         "jest-styled-components": "7.0.3",
         "redux-mock-store": "1.5.4",
-        "redux-saga-test-plan": "4.0.0"
+        "redux-saga-test-plan": "4.0.1"
     },
     "jest": {
         "collectCoverageFrom": [

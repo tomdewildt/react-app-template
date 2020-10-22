@@ -23,6 +23,8 @@ Prerequisites:
 
 # References
 
+[React Docs](https://reactjs.org/docs/)
+
 [Redux Docs](https://redux.js.org/api/api-reference)
 
 [Redux-Saga Docs](https://redux-saga.js.org/docs/api/)

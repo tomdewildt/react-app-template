@@ -1,22 +1,17 @@
 import React from "react";
-import {
-    BrowserRouter,
-    Redirect,
-    Route,
-    Switch,
-} from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import { PageHome } from "../pages";
 
 const Router = ( { children } ) => (
-    <BrowserRouter>
+    <>
         { children }
-        <Switch>
-            <Route exact path="/" component={ PageHome } />
-            <Route exact path="*" component={ () => <Redirect to="/" /> } />
-        </Switch>
-    </BrowserRouter>
+        <Routes>
+            <Route exact path="/" element={ <PageHome /> } />
+            <Route exact path="*" element={ <Navigate to="/" replace /> } />
+        </Routes>
+    </>
 );
 
 Router.propTypes = {

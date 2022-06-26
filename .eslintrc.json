@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es6": true,
+        "es2022": true,
         "jest": true
     },
     "extends": [
@@ -13,23 +13,16 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "babelOptions": {
-            "presets": [
-                "@babel/preset-react"
-            ]
-        },
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 2018,
-        "requireConfigFile": false,
+        "ecmaVersion": 13,
         "sourceType": "module"
     },
     "plugins": [
         "react",
         "react-hooks"
     ],
-    "parser": "@babel/eslint-parser",
     "rules": {
         "array-bracket-spacing": [
             "error",
@@ -80,9 +73,10 @@
             "avoid-escape"
         ],
         "react/function-component-definition": [
-            2,
+            "error",
             {
-                "namedComponents": "arrow-function"
+                "namedComponents": "arrow-function",
+                "unnamedComponents": "arrow-function"
             }
         ],
         "react/jsx-curly-spacing": [

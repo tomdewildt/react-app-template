@@ -8,8 +8,8 @@ Simple starter template for building [React](https://reactjs.org/) apps with [Re
 # How To Run
 
 Prerequisites:
-* node version ```14.15.4``` or later
-* npm version ```6.14.4``` or later
+* node version ```18.12.1``` or later
+* npm version ```8.19.2``` or later
 
 ### Development
 

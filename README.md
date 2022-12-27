@@ -1,5 +1,5 @@
 # React App Template
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/react-app-template/ci/master)](https://github.com/tomdewildt/react-app-template/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/react-app-template/ci.yml?branch=master)](https://github.com/tomdewildt/react-app-template/actions/workflows/ci.yml)
 [![Coverage](https://img.shields.io/codecov/c/gh/tomdewildt/react-app-template)](https://codecov.io/gh/tomdewildt/react-app-template)
 [![License](https://img.shields.io/github/license/tomdewildt/react-app-template)](https://github.com/tomdewildt/react-app-template/blob/master/LICENSE)
 
